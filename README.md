@@ -1,5 +1,5 @@
 # E-commerce
-Este projeto foi um teste técnico da empresa M3
+Este projeto foi um teste técnico na empresa M3
 
 
 <img src="readmefiles/lojaderoupa.png" style="width: 400px;" alt="loja de roupa">
