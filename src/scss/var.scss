@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');    
+
+$preto: #000000;
+$cinza1: #00000080;
+$cinza2: #666666;
+$primaria: #00C0EE;
+$nav: #C7C7C7;
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+option, select, input, h1{
+    margin: 0;
+    padding: 0;
+}

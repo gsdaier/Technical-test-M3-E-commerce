@@ -1,0 +1,151 @@
+@import "reset";
+@import "var";
+
+body {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbarcontent {
+    width: 100%;
+    border-bottom: 1px solid $nav;
+}
+
+.logo-m3 {
+    margin: 20px 12%;
+}
+
+.bag-svg {
+    float: right;
+    margin: 20px 12%;
+}
+
+.titles {
+    width: 100%;
+}
+
+.order {
+    float: right;
+    margin: 0 12%;
+    margin-left: 0px;
+}
+
+.blusas {
+    margin-left: 12%;
+    margin-top: 20px;
+}
+
+.titles h1 {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+.filter {
+    float: left;
+    width: 200px;
+    margin: 0px 12%;
+    margin-right: 0px;
+}
+
+.color {
+    margin-top: 40px;
+
+}
+
+.color h1 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+#color {
+    padding: 5px 0 10px 0;
+}
+
+.size h1 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.size-option {
+    padding: 0px;
+    margin-bottom: 10px;
+}
+
+.size-option button {
+    padding: 7px;
+    margin: 0;
+}
+
+.price h1 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #333333;
+}
+
+.maincontent {
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content,
+#card {
+    padding: 20px;
+    text-align: center;
+}
+
+#card p {
+    padding: 5px;
+}
+
+.item {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.item-price {
+    font-weight: 600;
+}
+
+.item-installment {
+    color: $cinza1;
+}
+
+.item-buy {
+    background-color: $preto;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    padding-right: 30%;
+    padding-left: 30%;
+    margin-top: 5px;
+}
+
+.more{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.more button {
+    color: #fff;
+    background-color: #00C0EE;
+    border: none;
+    padding: 10px 40px;
+}
+
+.m3-footer {
+    background-color: black;
+    padding: 15px;
+    color: #fff;
+    text-align: center;
+}

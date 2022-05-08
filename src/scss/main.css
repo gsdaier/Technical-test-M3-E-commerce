@@ -1,0 +1,304 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+option, select, input, h1 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navbarcontent {
+  width: 100%;
+  border-bottom: 1px solid #C7C7C7;
+}
+
+.logo-m3 {
+  margin: 20px 12%;
+}
+
+.bag-svg {
+  float: right;
+  margin: 20px 12%;
+}
+
+.titles {
+  width: 100%;
+}
+
+.order {
+  float: right;
+  margin: 0 12%;
+  margin-left: 0px;
+}
+
+.blusas {
+  margin-left: 12%;
+  margin-top: 20px;
+}
+
+.titles h1 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+.filter {
+  float: left;
+  width: 200px;
+  margin: 0px 12%;
+  margin-right: 0px;
+}
+
+.color {
+  margin-top: 40px;
+}
+
+.color h1 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+#color {
+  padding: 5px 0 10px 0;
+}
+
+.size h1 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.size-option {
+  padding: 0px;
+  margin-bottom: 10px;
+}
+
+.size-option button {
+  padding: 7px;
+  margin: 0;
+}
+
+.price h1 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #333333;
+}
+
+.maincontent {
+  width: 100%;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.content,
+#card {
+  padding: 20px;
+  text-align: center;
+}
+
+#card p {
+  padding: 5px;
+}
+
+.item {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.item-price {
+  font-weight: 600;
+}
+
+.item-installment {
+  color: #00000080;
+}
+
+.item-buy {
+  background-color: #000000;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  padding-right: 30%;
+  padding-left: 30%;
+  margin-top: 5px;
+}
+
+.more {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 40px;
+}
+
+.more button {
+  color: #fff;
+  background-color: #00C0EE;
+  border: none;
+  padding: 10px 40px;
+}
+
+.m3-footer {
+  background-color: black;
+  padding: 15px;
+  color: #fff;
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */
