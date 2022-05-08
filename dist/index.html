@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desenvolvedor M3</title>
+  <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+
+  <header>
+    <div class="nav">
+      <div class="navbar">
+        <div class="navbarcontent">
+
+          <img class="logo-m3" src="./img/logo-m3.png" alt="logo-m3">
+
+          <div class="bag-svg">
+            <svg width="17" height="20" viewBox="0 0 17 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink">
+              <rect width="17" height="20" fill="url(#pattern0)" />
+              <defs>
+                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                  <use xlink:href="#image0_2_13" transform="scale(0.0588235 0.05)" />
+                </pattern>
+                <image id="image0_2_13" width="17" height="20"
+                  xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAUCAYAAABroNZJAAAAvElEQVQ4Ea2TAQ0CMQxFnwQkIAUJSMAJOAAJOAAH4ORwAA4gb1lJLnAH6faTpXdt/9+6/MF3LIAtcAauNfpv/i8sK+kAnIBLjfuat/4T7uzaAUEwKhq1WZE1cAc2E13mH4B9k3B372EO1u37gDt4cTG/31Mr7sn66MTO+kwseW9kBILTT0QDhWomFgOuGkXk00VE42TGCE4xnsaJRCYW43UROTaexIdZXmZmjOAU12YtPxK5NY4zOE4opuMLN/z2esJif9wAAAAASUVORK5CYII=" />
+              </defs>
+            </svg>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="titles">
+      <h1 class="blusas">blusas</h1>
+
+      <!-- resolver margem -->
+
+      <div class="order" id="order">
+        <select name="order" id="order-select">
+          <option value="">Ordernar por:</option>
+          <option value="mais recentes">Mais recentes</option>
+          <option value="menor preco">Menor preço</option>
+          <option value="maior preco">Maior preço</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="filter">
+      <div class="color">
+        <h1>cores</h1>
+        <div class="color-option">
+
+          <!-- resolver submit -->
+
+          <form action="/Desenvolvedor-M3/src/js/filter.js" method="post" id="color">
+            <input type="checkbox" id="amarelo" name="amarelo" value="Amarelo">
+            <label for="amarelo"> Amarelo </label><br>
+
+            <input type="checkbox" id="azul" name="azul" value="Azul">
+            <label for="azul"> Azul </label><br>
+
+            <input type="checkbox" id="branco" name="branco" value="Branco">
+            <label for="branco"> Branco </label><br>
+
+            <input type="checkbox" id="cinza" name="cinza" value="Cinza">
+            <label for="cinza"> Cinza </label><br>
+
+            <input type="checkbox" id="laranja" name="laranja" value="Laranja">
+            <label for="laranja"> Laranja </label><br>
+
+            <input type="checkbox" id="verde" name="verde" value="Verde">
+            <label for="verde"> Verde </label><br>
+
+            <input type="checkbox" id="vermelho" name="vermelho" value="Vermelho">
+            <label for="vermelho"> Vermelho </label><br>
+
+            <input type="checkbox" id="preto" name="preto" value="Preto">
+            <label for="preto"> Preto </label><br>
+
+            <input type="checkbox" id="rosa" name="rosa" value="Rosa">
+            <label for="rosa"> Rosa </label><br>
+
+            <input type="checkbox" id="vinho" name="vinho" value="Vinho">
+            <label for="vinho"> Vinho </label><br>
+
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+
+      <div class="size">
+        <h1>tamanhos</h1>
+
+        <div class="size-option">
+          <button type="submit" name="p_btn" value="P">P</button>
+          <button type="submit" name="m_btn" value="M">M</button>
+          <button type="submit" name="g_btn" value="GG">G</button>
+          <button type="submit" name="gg_btn" value="GG">GG</button><br>
+          <button type="submit" name="u_btn" value="U">U</button>
+          <button type="submit" name="36_btn" value="36">36</button>
+          <button type="submit" name="38_btn" value="38">38</button>
+          <button type="submit" name="40_btn" value="40">40</button><br>
+          <button type="submit" name="36_btn" value="36">36</button>
+          <button type="submit" name="38_btn" value="38">38</button>
+          <button type="submit" name="40_btn" value="40">40</button>
+        </div>
+      </div>
+
+      <div class="price">
+        <h1>faixa de preço</h1>
+
+        <div class="price-option">
+
+          <form action="/Desenvolvedor-M3/src/js/filter.js" method="post" id="color"></form>
+          <input type="checkbox" id="0-50" name="0-50" value="0-50">
+          <label for="0-50"> de R$0 até R$50 </label><br>
+
+          <input type="checkbox" id="51-150" name="51-150" value="51-150">
+          <label for="51-150"> de R$51 até R$150 </label><br>
+
+          <input type="checkbox" id="151-300" name="151-300" value="151-300">
+          <label for="151-300"> de R$151 até R$300 </label><br>
+
+          <input type="checkbox" id="301-500" name="301-500" value="301-500">
+          <label for="301-500"> de R$301 até R$500 </label><br>
+
+          <input type="checkbox" id="500" name="500" value="500">
+          <label for="500"> a partir de R$500 </label><br>
+
+          <input type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="maincontent">
+      <div class="content">
+        <div class="card1" id="card">
+          <img src="./img/img_2.png" alt="camiseta mescla">
+
+          <p class="item">camiseta mescla</p>
+          <p class="item-price">R$ 28,00</p>
+          <p class="item-installment">até 3x de R$9,33</p>
+
+          <button class="item-buy">COMPRAR</button>
+        </div>
+
+        <div class="card2" id="card">
+          <img src="./img/img_3.png" alt="saia em couro">
+
+          <p class="item">camiseta mescla</p>
+          <p class="item-price">R$ 28,00</p>
+          <p class="item-installment">até 3x de R$9,33</p>
+
+          <button class="item-buy">COMPRAR</button>
+        </div>
+
+        <div class="card3" id="card">
+          <img src="./img/img_4.png" alt="cardigan tigre">
+
+          <p class="item">camiseta mescla</p>
+          <p class="item-price">R$ 28,00</p>
+          <p class="item-installment">até 3x de R$9,33</p>
+
+          <button class="item-buy">COMPRAR</button>
+        </div>
+
+        <div class="card4" id="card">
+          <img src="./img/img_5.png" alt="cardigan off white">
+
+          <p class="item">camiseta mescla</p>
+          <p class="item-price">R$ 28,00</p>
+          <p class="item-installment">até 3x de R$9,33</p>
+
+          <button class="item-buy">COMPRAR</button>
+        </div>
+
+        <div class="card5" id="card">
+          <img src="./img/img_6.png" alt="body leopardo">
+
+          <p class="item">camiseta mescla</p>
+          <p class="item-price">R$ 28,00</p>
+          <p class="item-installment">até 3x de R$9,33</p>
+
+          <button class="item-buy">COMPRAR</button>
+        </div>
+
+        <div class="card6" id="card">
+          <img src="./img/img_7.png" alt="casaco pelos">
+
+          <p class="item">camiseta mescla</p>
+          <p class="item-price">R$ 28,00</p>
+          <p class="item-installment">até 3x de R$9,33</p>
+
+          <button class="item-buy">COMPRAR</button>
+        </div>
+
+        <div class="card7" id="card">
+          <img src="./img/img_8.png" alt="cropped stripes">
+
+          <p class="item">camiseta mescla</p>
+          <p class="item-price">R$ 28,00</p>
+          <p class="item-installment">até 3x de R$9,33</p>
+
+          <button class="item-buy">COMPRAR</button>
+        </div>
+
+        <div class="card8" id="card">
+          <img src="./img/img_9.png" alt="camisa transparente">
+
+          <p class="item">camiseta mescla</p>
+          <p class="item-price">R$ 28,00</p>
+          <p class="item-installment">até 3x de R$9,33</p>
+
+          <button class="item-buy">COMPRAR</button>
+        </div>
+
+        <div class="card9" id="card">
+          <img src="./img/img_10.png" alt="cardigan tigre">
+
+          <p class="item">camiseta mescla</p>
+          <p class="item-price">R$ 28,00</p>
+          <p class="item-installment">até 3x de R$9,33</p>
+
+          <button class="item-buy">COMPRAR</button>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+
+    <div class="more">
+      <div class="more-btn">
+        <button>CARREGAR MAIS</button>
+      </div>
+    </div>
+    <div class="m3-footer">
+      M3: Implantação de E-commerce VTEX
+    </div>
+  </footer>
+
+  <table id="tabela"></table>
+
+  <script src="./js/index.js"></script>
+</body>
+
+
+
+</html>
