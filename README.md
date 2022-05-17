@@ -1,8 +1,8 @@
 # E-commerce
-Teste ténico feito para um processo seletivo
+Technical test made for a selection process
 
 <img src="readmefiles/lojaderoupa.png" style="width: 700px" alt="loja de roupa">
-Para rodar:
+To run:
 
 ```
 $ cd my-app
